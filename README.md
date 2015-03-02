@@ -64,6 +64,11 @@ View file differences that have been staged:
 View file differences that have not yet been committed:
     git diff HEAD <filename>
 
+View file differences that have not yet been committed:
+    git diff HEAD <filename>
+
+note that instead of `HEAD` (the most recent commit) you can also use `HEAD~` (the commit before last), `HEAD~2` (the 2nd commit before last) etc.
+
 Keep local changes, but remove from the staging area:
     git reset HEAD <filename>
 
