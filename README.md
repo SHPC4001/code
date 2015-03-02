@@ -23,25 +23,15 @@ To make a repo from scratch:
 
     git init
 
-Do this either in a new directory or a current directory
-
-To add files to the repository:
+Do this either in a new directory or a current directory. Then, to add files to the repository:
 
     git add files_to_add
 
-To commit your changes:
+Commit your changes to add them to the 'staging area':
 
     git commit -m "Message"
-
-After modifying files, check your git status:
-
-    git status
-
-You can then `git add` files that you want to stage manually, or do
-
-    git add --update
-
-to add all modified files.
+    
+## Pushing your changes to github
 
 To set the remote repo (not necessary if cloned):
 
@@ -51,6 +41,18 @@ To push to the remote repository on github:
 
     git push origin master
 
-To see the remote repos:
+To see the remote repos available:
 
     git remote -v
+
+## Modifying files
+
+After modifying files, check your git status:
+
+    git status
+
+You can then `git add` files that you want to stage manually, or do
+
+    git commit -a
+
+to add *and commit* all modified files.
