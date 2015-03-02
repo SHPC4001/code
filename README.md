@@ -1,6 +1,6 @@
 #How to use this repository
 
-This repository can be used to keep track of the example programs, and easily sync them to your home folder on Magnus. [Online git reference](http://gitref.org/branching/).
+This repository can be used to keep track of the example programs, and easily sync them to your home folder on Magnus. [Online git reference](http://gitref.org/).
 
 ##Setting up Git
 
